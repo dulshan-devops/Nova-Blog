@@ -1,6 +1,8 @@
 # Nova Blog Website
 
-Welcome to my Next.js and Sanity-powered blog website! This repository contains the code for a simple and efficient blog platform with basic features. Below you'll find a detailed overview of the project, including its features, technology stack, and setup instructions.
+Welcome to  Next.js and Sanity-powered websites! This repository contains the code for a simple and efficient blog platform with basic features. Below you'll find a detailed overview of the project, including its features, technology stack, and setup instructions.
+
+- https://blog.novatechnologies.tech
 
 ## Features
 
