@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nova Blog Website
 
-## Getting Started
+Welcome to my Next.js and Sanity-powered blog website! This repository contains the code for a simple and efficient blog platform with basic features. Below you'll find a detailed overview of the project, including its features, technology stack, and setup instructions.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🔥 **Create, Read, Update, Delete (CRUD) Operations:** Manage blog posts seamlessly.
+- 🔍 **Search Functionality:** Quickly find the blog posts you're looking for.
+- 🖼️ **Image Management:** Upload and manage images for your posts.
+- 📅 **Date and Time Stamps:** Automatically add publication dates to posts.
+- 📱 **Responsive Design:** Optimized for both desktop and mobile viewing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:**
+  - [Next.js](https://nextjs.org/): React framework for production
+  - [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework
+  - [Shadcn](https://ui.shadcn.com/): A JavaScript library for building user interfaces
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Backend:**
+  - [Sanity](https://www.sanity.io/): Headless CMS
 
-## Learn More
+- **Deployment:**
+  - [Vercel](https://vercel.com/): Platform for frontend frameworks and static sites
 
-To learn more about Next.js, take a look at the following resources:
+## Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Home Page](screenshots/home.png)
+*Homepage with a list of recent blog posts.*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Single Post](screenshots/single_post.png)
+*Detailed view of a single blog post.*
 
-## Deploy on Vercel
+![Create Post](screenshots/create_post.png)
+*Form to create a new blog post.*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/dulshan-devops/Nova-Blog
+    cd foldername
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3. Start the development server
+    ```bash
+    npm run dev
+    ```
+
+4. Connect sanity project - 
+    [Sanity Guide](https://www.sanity.io/learn/course/day-one-with-sanity-studio/bringing-content-to-a-next-js-front-end)
