@@ -11,6 +11,7 @@ Welcome to  Next.js and Sanity-powered websites! This repository contains the co
 - 🖼️ **Image Management:** Upload and manage images for your posts.
 - 📅 **Date and Time Stamps:** Automatically add publication dates to posts.
 - 📱 **Responsive Design:** Optimized for both desktop and mobile viewing.
+- 🌓 **Dark Mode:** Supported for both light and dark modes.
 
 ## Tech Stack
 
