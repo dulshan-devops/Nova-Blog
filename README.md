@@ -29,13 +29,10 @@ Welcome to  Next.js and Sanity-powered websites! This repository contains the co
 ## Screenshots
 
 ![Home Page](screenshots/home.png)
-*Homepage with a list of recent blog posts.*
 
 ![Single Post](screenshots/single_post.png)
-*Detailed view of a single blog post.*
 
 ![Create Post](screenshots/create_post.png)
-*Form to create a new blog post.*
 
 ### Installation
 
