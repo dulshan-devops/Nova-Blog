@@ -5,6 +5,8 @@ import { client, urlFor } from "@/src/sanity/client";
 import { simpleBlogCard } from "@/lib/blogInterface";
 import Link from "next/link";
 
+export const revalidate = 30;
+
 async function getData() {
   const query = `
   *[_type == 'blog'] | order(_createdAt desc) {
